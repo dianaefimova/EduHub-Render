@@ -17,5 +17,5 @@ RUN mvn clean package
 EXPOSE 8080
 
 # Run the JAR file
-CMD ["java", "-jar", "target/your-app-name.jar"]
+CMD ["java", "-jar", "target/EduHub-0.0.1-SNAPSHOT.jar"]
 
