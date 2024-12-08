@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 
-@SpringBootApplication(scanBasePackages = {"SW.EduHub", "controller", "service", "model"})
+@SpringBootApplication(scanBasePackages = {"SW.EduHub", "controller", "service", "model", "config"})
 public class EduHubApplication {
 
 	public static void main(String[] args) {
