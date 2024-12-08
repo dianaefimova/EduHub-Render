@@ -74,7 +74,7 @@ public class APIservice {
         try {
             logDegrees.info("Sending request to external API...");
             Mono<String> response = this.degrees.get()
-                    .uri("/987b7faa-c7d9-4107-8365-183b62e0eced")
+                    .uri("/9fd8667e-b12c-48bc-bd00-5ee4e3d4c563")
                     .retrieve()
                     .bodyToMono(String.class);
             String result = response.block();
