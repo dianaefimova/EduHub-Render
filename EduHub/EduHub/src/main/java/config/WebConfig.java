@@ -11,9 +11,9 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
         // Allow CORS requests from localhost and frontend URL
         registry.addMapping("/**")
-                .allowedOrigins("http://localhost:5173", "https://dianaefimova.github.io/EduHub-frontend")
+                .allowedOrigins("http://localhost:5173", "https://dianaefimova.github.io")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
-                .allowCredentials(true);  
+                .allowCredentials(true);
     }
 }
