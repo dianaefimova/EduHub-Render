@@ -28,7 +28,7 @@ public class ReservationController {
     }
 
     // PUT update a reservation by classroom name
-    @PutMapping("/{classroomName}")
+    @PutMapping("/public-api/reservations/{classroomName}")
     public boolean updateReservation(@PathVariable String classroomName, @RequestBody Reservation updatedReservation) {
         return reservationService.updateReservation(classroomName, updatedReservation.isReserved());
     }
